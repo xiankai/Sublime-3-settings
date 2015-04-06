@@ -1,10 +1,15 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
+		"DashDoc",
 		"DocBlockr",
 		"Git",
 		"JSONLint",
 		"Markdown Extended",
+		"Package Control",
 		"Sublime Bookmarks",
 		"Xdebug Client"
 	]

@@ -1,1 +1,4 @@
 Package Control.last-run
+*.cache
+*-ca-bundle
+*.log
