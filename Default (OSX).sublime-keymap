@@ -1,3 +1,5 @@
 [
+	{ "keys": ["super+h"], "command": "dash_doc"},
+	{ "keys": ["super+alt+h"], "command": "dash_doc", "args": { "flip_syntax_sensitive": true } },
 	{ "keys": ["super+enter"], "command": "goto_definition" }
 ]
