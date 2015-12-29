@@ -1,16 +1,23 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+		"Babel",
+		"Babel Snippets",
+		"Case Conversion",
 		"DashDoc",
 		"DocBlockr",
+		"Emmet",
 		"Git",
+		"INI",
 		"JSONLint",
 		"Markdown Extended",
 		"Package Control",
 		"Sublime Bookmarks",
+		"sublime-github",
 		"Xdebug Client"
 	]
 }

@@ -1,1 +1,1 @@
-{"D:\\repos\\TravelCloud\\application\\helpers\\access_helper.php": {"65": {"id": null, "enabled": true, "expression": null}}, "D:\\repos\\TravelCloud\\application\\models\\accountmodel.php": {}, "D:\\repos\\TravelCloud\\application\\models\\adminmodel.php": {"24": {"id": "248840001", "enabled": true, "expression": null}}, "D:\\repos\\TravelCloud\\application\\controllers\\account.php": {"338": {"id": "248840002", "enabled": true, "expression": null}}}
+{"/Users/kj/spacebib-org/app/Plugin/SbModels/Model/User.php": {"326": {"id": null, "expression": null, "enabled": true}}}

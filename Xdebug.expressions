@@ -1,1 +1,1 @@
-[{"type": null, "enabled": true, "value": null, "expression": "$this->db->last_query();"}, {"type": null, "enabled": true, "value": null, "expression": "$e->getMessage();"}]
+[{"expression": "$this->SbAssets", "value": null, "type": null, "enabled": true}]

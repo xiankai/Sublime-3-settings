@@ -1,5 +1,37 @@
 [
-	{ "keys": ["super+h"], "command": "dash_doc"},
-	{ "keys": ["super+alt+h"], "command": "dash_doc", "args": { "flip_syntax_sensitive": true } },
-	{ "keys": ["super+enter"], "command": "goto_definition" }
+	{ "keys": ["f10"], "command": "xdebug_continue", "args": {"command" : "step_over"} },
+	{ "keys": ["f11"], "command": "xdebug_continue", "args": {"command" : "step_into"} },
+	{ "keys": ["shift+f11"], "command": "xdebug_continue", "args": {"command" : "step_out"} },
+	{ "keys": ["f8"], "command": "xdebug_continue", "args": {"command" : "run"} },
+	{ "keys": ["shift+f8"], "command": "xdebug_continue", "args": {"command" : "stop"} },
+	{ "keys": ["f5"], "command": "xdebug_session_start" },
+	{ "keys": ["f6"], "command": "xdebug_session_stop", "args": {"close_windows" : true} },
+	{ "keys": ["f17"], "command": "xdebug_breakpoint" },
+
+	{ "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+	{ "keys": ["super+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+	{ "keys": ["super+enter"], "command": "goto_definition" },
+
+	{ "keys": ["tab"], "command": "expand_abbreviation_by_tab",
+	  "context": [
+	    {
+	      "operand": "source.js", 
+	      "operator": "equal", 
+	      "match_all": true, 
+	      "key": "selector"
+	    },
+	    {   
+	      "key": "selection_empty", 
+	      "operator": "equal", 
+	      "operand": true,
+	      "match_all": true 
+	    }
+	  ]
+	},
+	{ "keys": ["tab"], "command": "next_field", "context":
+	  [
+	    { "key": "has_next_field", "operator": "equal", "operand": true }
+	  ]
+	}
+
 ]

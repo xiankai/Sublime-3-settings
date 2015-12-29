@@ -10,12 +10,13 @@
     // "/absolute/path/to/file/on/server" : "/path/to/file/on/computer",
     // "/var/www/htdocs/example/" : "C:/git/websites/example/"
     "path_mapping": {
-        "/applications/TravelCloud": "D:/repos/TravelCloud"
+        "/var/www/spacebib.dev/public_html": "/Users/kj/spacebib-org",
+        "/vagrant": "/Users/kj/spacebib-org"
     },
 
     // Determine which URL to launch in the default web browser
     // when starting/stopping a session.
-    "url": "http://localhost:8000/",
+    "url": "http://spacebib.dev",
 
     // An IDE key is used to identify with debugger engine
     // when Sublime Text will start or stop a debugging session.
@@ -46,24 +47,6 @@
     // Break on exceptions, suspend execution
     // when the exception name matches an entry in this list value.
     "break_on_exception": [
-        // // E_ERROR, E_CORE_ERROR, E_COMPILE_ERROR, E_USER_ERROR
-        // "Fatal error",
-        // // E_RECOVERABLE_ERROR (since PHP 5.2.0)
-        // "Catchable fatal error",
-        // // E_WARNING, E_CORE_WARNING, E_COMPILE_WARNING, E_USER_WARNING
-        // "Warning",
-        // // E_PARSE
-        // "Parse error",
-        // // E_NOTICE, E_USER_NOTICE
-        // "Notice",
-        // // E_STRICT
-        // "Strict standards",
-        // // E_DEPRECATED, E_USER_DEPRECATED (since PHP 5.3.0)
-        // "Deprecated",
-        // // 0
-        // "Xdebug",
-        // // default
-        // "Unknown error"
     ],
 
     // Always close debug windows and restore layout on session stop.
@@ -77,7 +60,7 @@
 
     // Always launch browser on session start/stop.
     // Note: This will only work if you have the 'url' setting configured.
-    "launch_browser": true,
+    "launch_browser": false,
 
     // When launching browser on session stop do not execute script.
     // By using parameter XDEBUG_SESSION_STOP_NO_EXEC instead of XDEBUG_SESSION_STOP.
