@@ -18,6 +18,8 @@
 		"Package Control",
 		"Sublime Bookmarks",
 		"sublime-github",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"Xdebug Client"
 	]
 }
