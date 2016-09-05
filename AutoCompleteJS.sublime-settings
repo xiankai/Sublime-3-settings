@@ -1,0 +1,5 @@
+{
+	"excluded_files_or_folders":[
+		"jspm",
+	],
+}

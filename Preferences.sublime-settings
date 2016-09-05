@@ -1,6 +1,11 @@
 {
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"file_exclude_patterns":
+	[
+		"webroot/bundle.js",
+		"webroot/dev-bundle.js"
+	],
 	"folder_exclude_patterns":
 	[
 		".svn",
