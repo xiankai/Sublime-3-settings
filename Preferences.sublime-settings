@@ -13,10 +13,11 @@
 		".hg",
 		"CVS",
 		"node_modules",
+		"dist",
 		"vendor",
 		"lib/Cake"
 	],
-	"font_size": 10,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Markdown Extended",

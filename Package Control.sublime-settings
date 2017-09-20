@@ -8,7 +8,6 @@
 		"Babel",
 		"Babel Snippets",
 		"Case Conversion",
-		"DashDoc",
 		"DocBlockr",
 		"Emmet",
 		"Git",
@@ -19,10 +18,11 @@
 		"MarkdownEditing",
 		"Package Control",
 		"PHPUnit Completions",
-		"Sublime Bookmarks",
 		"sublime-github",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-flow",
+		"Syntax Highlighting for Sass",
 		"Xdebug Client"
 	]
 }
